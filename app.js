@@ -36,7 +36,7 @@ options ={
   url: 'https://us3.api.mailchimp.com/3.0/lists/d60a88f119',
   method: "POST",
   headers: {
-    "Authorization": 'Kevin1 c9e43ccc13f342238218ab46cf7159e9-us3'
+    "Authorization": ''
   },
   body: jsonData
 };
@@ -70,7 +70,3 @@ app.listen(process.env.PORT||3000 , ()=> {
 });
 
 
-//mailchip ApI:
-//c9e43ccc13f342238218ab46cf7159e9-us3
-
-//list ID: d60a88f119
